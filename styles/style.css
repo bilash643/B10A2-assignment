@@ -1,0 +1,388 @@
+* {
+  background-color: #121212;
+  font-family: sans-serif;
+  color: white;
+  margin: 0;
+  /* padding: 24px; */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  border: 0.01px dashed gray;
+  padding: 4px 12px 4px 12px;
+  border-radius: 50px;
+}
+.menuItem li:hover {
+  color: #ff6969;
+}
+.fit {
+  font-size: 2rem;
+  margin: 0;
+  color: #ff6969;
+  font-weight: 600;
+}
+
+.main-banner {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-banner div h1 {
+  font-weight: 800;
+  padding-bottom: 16px;
+  font-size: 3rem;
+}
+.main-banner div p {
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+.joinbutton {
+  border: none;
+  padding: 6px 20px 6px 20px;
+  border-radius: 100px;
+  font-weight: 600;
+  background: #ff6969;
+  margin-right: 12px;
+}
+.downloadbutton {
+  border: 1px solid;
+  padding: 6px 20px 6px 20px;
+  border-radius: 100px;
+  font-weight: 600;
+  margin-right: 12;
+}
+.CountCard {
+  position: relative;
+  top: 0px;
+}
+.workout {
+  /* Add your styles here */
+  position: absolute;
+  top: 100px;
+  right: -20px;
+  padding: 0 12px 0 23px;
+  background: gray;
+  border-radius: 10px;
+}
+.workout h1  {
+ background: transparent;
+}
+.workout p{
+ background: transparent;
+}
+
+.tutorial{
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ background: gray;
+   padding: 6px 20px 6px 20px;
+
+  border-radius: 10px;
+ border: 1px solid;
+ position: absolute;
+ bottom: 12px;
+ left: -42px;
+}
+
+.tutorial span{
+ height: 20px;
+ width: 20px;
+ background: orangered;
+ border-radius: 100px;
+ /* background: transparent; */
+}
+.tutorial div{
+ display: flex;
+ flex-direction: column;
+ background: transparent;
+
+}
+.tutorial div h4{
+font-size: 2rem;
+background: transparent;
+}
+
+.tutorial div p{
+background: transparent;
+}
+
+
+
+
+.habit-heading{
+ text-align: center;
+ padding: 12px;
+}
+.paragrap{
+ padding-left: 312px;
+ padding-right: 312px;
+}
+
+
+.habits{
+ padding: 2rem;
+}
+.excerciseman{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.images{
+  width: 75%;
+  border-radius: 100px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  gap: 6px;
+}
+.description p{
+  font-size: 12px;
+  opacity: 80%;
+  align-items: center;
+}
+.extraMile{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: gray; */
+  border-radius: 10px;
+}
+.extraMile div p{
+  padding: 12px 0;
+  margin-right: 200px;
+}
+.extraMile div h1{
+  font-size: 3rem;
+}
+.image{
+  height: 50vh;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+}
+.imageofExcercise{
+height: 40vh;
+width: 100%;
+}
+.training{
+  padding: 2rem;
+}
+.training p{
+  padding-top: 15px;
+  padding-bottom: 35px;
+  width: 35%;
+}
+
+.excerciseImage div{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+.excerciseImage section{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+.item2{
+grid-column: span 2 / span 2;
+}
+
+.bmiclac{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.CalculatorChart{
+  flex: 1;
+}
+.CalculatorBMI{
+  flex: 1;
+}
+.th{
+  display: flex ;
+  margin: auto;
+  width: 60%;
+}
+.th div{
+  border: 1px solid;
+  width: 100%;
+  
+  text-align: center;
+  padding: 4px;
+}
+.chartheading{
+
+  font-size: 2rem;
+  font-weight: 700;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 18px;
+}
+.bmiCalch{
+  padding-top: 54px;
+}
+.CalculatorBMI div{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  gap:44px;
+}
+.CalculatorBMI div input {
+  flex:1;
+  padding: 12px;
+  margin-top: 12px;
+}
+.CalculatorBMI div select {
+  flex:1;
+    padding: 12px;
+margin-top: 12px;}
+
+.meet{
+  padding: 2rem;
+}
+.meet div img{
+  height: 40vh;
+  width: 100%;
+}
+.meet div{
+
+gap: 10px;  
+margin-top: 10px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+
+
+/* footer */
+footer{
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+    flex: 1;
+
+}
+footer div{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+.hr{
+padding: 2rem;
+}
+.reserved{
+  text-align: center;
+}
+/* responsive for mobile device */
+@media (max-width: 768px) {
+  .menuItem {
+    display: none;
+  }
+  .main-banner {
+    flex-direction: column;
+  }
+  .main-banner div h1 {
+    font-weight: 800;
+    padding-bottom: 16px;
+    font-size: 2rem;
+  }
+  .main-banner div p {
+    padding-top: 12px;
+    padding-bottom: 16px;
+    text-wrap: wrap;
+  }
+  .paragrap{
+ padding-left: 0px;
+ padding-right: 0px;
+}
+.excerciseman{
+  flex-direction: column;
+  gap: 20px;
+  padding: 12px;
+}
+.extraMile{
+  flex-direction: column;
+  gap: 24px;
+}
+.extraMile div p{
+  padding: 12px 0;
+  margin-right: 0;
+}
+  .excerciseImage div{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.item2{
+grid-column:0;
+}
+.excerciseImage section{
+    display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 4px;
+}
+.training p{
+  width: 100%;
+}
+.bmiclac {
+  flex-direction: column;
+  gap: 16px;
+}
+.th{
+  display: flex ;
+  margin: auto;
+  width: 100%;
+}
+.chartheading{
+  width: 100%;
+}
+.meet div{
+
+gap: 10px;  
+margin-top: 10px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+footer{
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+  footer div{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+.res{
+  border-bottom: 1px solid;
+  display: flex;
+  height: 5px;
+  width: 20px;
+  align-items: center;
+  gap: 9;
+}
+
+
+}
